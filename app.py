@@ -7,7 +7,7 @@ from send_emails import send_email
 
 app = Flask(__name__)
 
-schedule.every().day.at("22:31").do(send_email)
+schedule.every().day.at("22:55").do(send_email)
 
 def run_scheduler():
     while True:
