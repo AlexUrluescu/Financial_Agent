@@ -5,7 +5,7 @@ import time
 from send_emails import send_email
 
 # Schedule your task
-schedule.every().day.at("23:56").do(send_email)
+schedule.every().day.at("9:00").do(send_email)
 
 # Continuous loop to keep checking schedule
 while True:
